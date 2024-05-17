@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 class Player {
@@ -133,7 +134,7 @@ do {
                 console.log(chalk.bold.red(`${player1.name} fuel = ${player1.fuel}`));
                 console.log(chalk.bold.green(`${opponent1.name} fuel = ${opponent1.fuel}`));
                 if (player1.fuel <= 0) {
-                    console.log(chalk.bold.italic.red("You lose, Better Luck Next Time"));
+                    console.log(chalk.bold.italic.red("You loose, Better Luck Next Time"));
                     process.exit();
                 }
             }

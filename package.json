@@ -3,10 +3,11 @@
     "class": "^0.1.4",
     "inquirer": "^9.2.20"
   },
-  "name": "oop",
-  "version": "1.0.0",
+  "name": "areebafatimaalii-adventure-game",
+  "version": "1.0.1",
   "main": "main.js",
   "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
